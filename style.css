@@ -11,7 +11,7 @@ html,body {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url("http://wallpaperswide.com/download/purple_sunset-wallpaper-1366x768.jpg") no-repeat 50% 50%;
+    background: url("http://wallpaperswide.com/download/blurry_blue_background-wallpaper-1366x768.jpg") no-repeat 50% 50%;
     display: table;
     top:0;
     background-size: cover;
@@ -31,4 +31,17 @@ html,body {
 .content h1{
     font-family: 'Raleway', sans-serif;
     color: #F9f3f4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 180%;
+}
+.btn{
+    border-bottom-width: thick;
+    border-radius: 9px;
+    font-family: 'Oswald',sans-serif;
+    color: #F9f3c4;
+    font-size: 150%;
+    padding: 10px 20px;
+    border: solid #F9f3c4 3px; 
+    text-decoration: none;
+    
 }
