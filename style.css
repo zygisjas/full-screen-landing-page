@@ -11,12 +11,12 @@ html,body {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url("http://wallpaperswide.com/download/blurry_blue_background-wallpaper-1366x768.jpg") no-repeat 50% 50%;
+    background: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Free-Blurry-Backgrounds.jpg") no-repeat 50% 50%;
     display: table;
     top:0;
     background-size: cover;
 }
-.intro .inner{
+.intro .inner {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
@@ -34,7 +34,7 @@ html,body {
     text-shadow: 0px 0px 300px #000;
     font-size: 180%;
 }
-.btn{
+.btn {
     border-bottom-width: thick;
     border-radius: 9px;
     font-family: 'Oswald',sans-serif;
@@ -44,4 +44,31 @@ html,body {
     border: solid #F9f3c4 3px; 
     text-decoration: none;
     
+}
+.btn:hover {
+    color: #fff;
+    border: #fff solid 3px;
+    
+}
+
+p {
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 768px){
+    .content h1 {
+        font-size: 120%;
+    }
+    .btn {
+        font-size:100%;
+        padding: 7px 15px;
+    }
+    
+    p{
+        font-size: 100%;
+        line-height: 160%;
+    }
 }
